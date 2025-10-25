@@ -6,11 +6,10 @@ public class StringBuilders {
         nome = nome.concat(" Pereira");
 
 
-        StringBuilder sb = new StringBuilder();
-        sb.append("Leandro");
-        sb.append(" da");
-        sb.append(" Silva");
-        sb.append(" Pereira");
+        String sb = "Leandro" +
+                " da" +
+                " Silva" +
+                " Pereira";
 
         System.out.println(nome);
         System.out.println(sb);

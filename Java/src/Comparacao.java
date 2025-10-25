@@ -14,7 +14,7 @@ public class Comparacao {
         System.out.println(i1.equals(i2)); // Quando for comparar objetos, usa .equals
 
         String nome1 = "leandro";
-        String nome2 = new String("Leandro");
+        String nome2 = "Leandro";
 
         System.out.println(nome1.equalsIgnoreCase(nome2)); // ignora o maiusculo
     }

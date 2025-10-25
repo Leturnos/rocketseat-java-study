@@ -4,9 +4,9 @@ public enum EstadoBrasileiro {
     SP ("São Paulo"),
     RJ ("Rio de Janeiro");
 
-    private String nome;
+    private final String nome;
 
-    private EstadoBrasileiro(String nome) {
+    EstadoBrasileiro(String nome) {
         this.nome = nome;
     }
 
