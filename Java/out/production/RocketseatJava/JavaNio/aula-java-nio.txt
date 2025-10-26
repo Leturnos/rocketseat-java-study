@@ -1,0 +1,2 @@
+Se estiver vendo isso pelo código da classe Nio,
+quer dizer que funcionou corretamente

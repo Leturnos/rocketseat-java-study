@@ -1,3 +1,7 @@
+//HashMap	Um mapa sem relevância quanto a ordem de interação
+//LinkedHashMap	Um mapa que mantém a ordem de inserção.
+//TreeMap	Um mapa capaz de classificar as chaves pela ordem natural
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -10,6 +14,8 @@ public class Mapas {
         estadosBrasileiro.put("AM","AMAZONAS");
         estadosBrasileiro.put("BA","BAHIA");
         estadosBrasileiro.put("GO","GOIAS");
+
+        System.out.println("O estado que está na sigla 'PI' é: "+ estadosBrasileiro.get("PI"));
 
         Iterator ufsIterator = estadosBrasileiro.keySet().iterator();
         while (ufsIterator.hasNext()) {
